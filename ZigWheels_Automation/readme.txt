@@ -39,6 +39,7 @@ pom.xml contains the dependencies required by the project.
  
 testng.xml file is for running the test cases.
 
+
 Tools and Technologies used:
 -Selenium with Java in Eclipse IDE
 -TestNG
@@ -46,5 +47,6 @@ Tools and Technologies used:
 -WebDriverManager- Boni García
 -Apache POI
 -ExtentReports
+
 
 By: Kirtan Gajjar
