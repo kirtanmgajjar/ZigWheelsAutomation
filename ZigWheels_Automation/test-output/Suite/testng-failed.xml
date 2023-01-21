@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Identify New Bikes Test Automation(failed)">
+    <classes>
+      <class name="usedCars.UsedCarsTest">
+        <methods>
+          <include name="hoverTest"/>
+          <include name="closeDriver"/>
+          <include name="differentiatingNewTest"/>
+          <include name="popularCarsDisplayed"/>
+          <include name="usedCarsToHomepage"/>
+          <include name="openUrl"/>
+          <include name="configuration"/>
+          <include name="usedCarsChennaiClick"/>
+        </methods>
+      </class> <!-- usedCars.UsedCarsTest -->
+      <class name="invalidLogin.InvalidLoginTest">
+        <methods>
+          <include name="closeDataExcel"/>
+          <include name="emailTextBox"/>
+          <include name="closeDriver"/>
+          <include name="validEmail"/>
+          <include name="loginButton"/>
+          <include name="invalidEmailOrPhone"/>
+          <include name="differentiatingNewTest"/>
+          <include name="invalidPassword"/>
+          <include name="openUrl"/>
+          <include name="configuration"/>
+          <include name="openDataExcel"/>
+          <include name="continueWithGoogle"/>
+          <include name="passwordTextBox"/>
+        </methods>
+      </class> <!-- invalidLogin.InvalidLoginTest -->
+    </classes>
+  </test> <!-- Identify New Bikes Test Automation(failed) -->
+</suite> <!-- Failed suite [Suite] -->

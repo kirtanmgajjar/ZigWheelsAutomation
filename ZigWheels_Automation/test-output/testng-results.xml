@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="28" passed="22" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-21T20:50:25 IST" name="Suite" finished-at="2023-01-21T20:51:07 IST" duration-ms="42055">
+    <groups>
+    </groups>
+    <test started-at="2023-01-21T20:50:25 IST" name="Identify New Bikes Test Automation" finished-at="2023-01-21T20:51:07 IST" duration-ms="42055">
+      <class name="invalidLogin.InvalidLoginTest">
+        <test-method is-config="true" signature="openDataExcel()[pri:0, instance:invalidLogin.InvalidLoginTest@6a78afa0]" started-at="2023-01-21T20:50:53 IST" name="openDataExcel" finished-at="2023-01-21T20:50:53 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDataExcel -->
+        <test-method signature="loginButton()[pri:0, instance:invalidLogin.InvalidLoginTest@6a78afa0]" started-at="2023-01-21T20:50:53 IST" name="loginButton" description="To validate the functionality of &quot;Login/Signup&quot; button" finished-at="2023-01-21T20:50:55 IST" duration-ms="1379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginButton -->
+        <test-method signature="continueWithGoogle()[pri:0, instance:invalidLogin.InvalidLoginTest@6a78afa0]" started-at="2023-01-21T20:50:55 IST" name="continueWithGoogle" description="To validate the functionality of &quot;Continue with Google&quot; button" finished-at="2023-01-21T20:50:59 IST" depends-on-methods="invalidLogin.InvalidLoginTest.loginButton" duration-ms="4441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continueWithGoogle -->
+        <test-method signature="emailTextBox()[pri:0, instance:invalidLogin.InvalidLoginTest@6a78afa0]" started-at="2023-01-21T20:50:59 IST" name="emailTextBox" description="To verify if email text field is present in the window user is redirected into" finished-at="2023-01-21T20:51:00 IST" depends-on-methods="invalidLogin.InvalidLoginTest.continueWithGoogle" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailTextBox -->
+        <test-method signature="invalidEmailOrPhone(java.lang.String)[pri:0, instance:invalidLogin.InvalidLoginTest@6a78afa0]" started-at="2023-01-21T20:51:00 IST" name="invalidEmailOrPhone" description="To verify functionality of &quot;Next&quot; button when user enters invalid e-mail" data-provider="invalidEmailOrPhone" finished-at="2023-01-21T20:51:01 IST" depends-on-methods="invalidLogin.InvalidLoginTest.emailTextBox" duration-ms="1098" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zyxtwsr\@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmailOrPhone -->
+        <test-method signature="invalidEmailOrPhone(java.lang.String)[pri:0, instance:invalidLogin.InvalidLoginTest@6a78afa0]" started-at="2023-01-21T20:51:01 IST" name="invalidEmailOrPhone" description="To verify functionality of &quot;Next&quot; button when user enters invalid e-mail" data-provider="invalidEmailOrPhone" finished-at="2023-01-21T20:51:01 IST" depends-on-methods="invalidLogin.InvalidLoginTest.emailTextBox" duration-ms="564" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zyxwtewrerewrs@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmailOrPhone -->
+        <test-method signature="invalidEmailOrPhone(java.lang.String)[pri:0, instance:invalidLogin.InvalidLoginTest@6a78afa0]" started-at="2023-01-21T20:51:02 IST" name="invalidEmailOrPhone" description="To verify functionality of &quot;Next&quot; button when user enters invalid e-mail" data-provider="invalidEmailOrPhone" finished-at="2023-01-21T20:51:02 IST" depends-on-methods="invalidLogin.InvalidLoginTest.emailTextBox" duration-ms="497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9876543210123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmailOrPhone -->
+        <test-method signature="invalidEmailOrPhone(java.lang.String)[pri:0, instance:invalidLogin.InvalidLoginTest@6a78afa0]" started-at="2023-01-21T20:51:02 IST" name="invalidEmailOrPhone" description="To verify functionality of &quot;Next&quot; button when user enters invalid e-mail" data-provider="invalidEmailOrPhone" finished-at="2023-01-21T20:51:03 IST" depends-on-methods="invalidLogin.InvalidLoginTest.emailTextBox" duration-ms="501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[987654320]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmailOrPhone -->
+        <test-method signature="invalidEmailOrPhone(java.lang.String)[pri:0, instance:invalidLogin.InvalidLoginTest@6a78afa0]" started-at="2023-01-21T20:51:03 IST" name="invalidEmailOrPhone" description="To verify functionality of &quot;Next&quot; button when user enters invalid e-mail" data-provider="invalidEmailOrPhone" finished-at="2023-01-21T20:51:04 IST" depends-on-methods="invalidLogin.InvalidLoginTest.emailTextBox" duration-ms="920" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9876543211]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmailOrPhone -->
+        <test-method signature="validEmail(java.lang.String)[pri:0, instance:invalidLogin.InvalidLoginTest@6a78afa0]" started-at="2023-01-21T20:51:04 IST" name="validEmail" description="To verify functionality of &quot;Next&quot; button when user enters a valid e-mail" data-provider="validEmail" finished-at="2023-01-21T20:51:04 IST" depends-on-methods="invalidLogin.InvalidLoginTest.invalidEmailOrPhone" duration-ms="344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[trialsubtrial@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEmail -->
+        <test-method signature="passwordTextBox()[pri:0, instance:invalidLogin.InvalidLoginTest@6a78afa0]" started-at="2023-01-21T20:51:04 IST" name="passwordTextBox" description="To verify if the Password textbox is present and is able to accept inputs" finished-at="2023-01-21T20:51:06 IST" depends-on-methods="invalidLogin.InvalidLoginTest.validEmail" duration-ms="1801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordTextBox -->
+        <test-method signature="invalidPassword(java.lang.String)[pri:0, instance:invalidLogin.InvalidLoginTest@6a78afa0]" started-at="2023-01-21T20:51:06 IST" name="invalidPassword" description="To validate whether the error message is displayed on entering invalid password" data-provider="invalidPassword" finished-at="2023-01-21T20:51:07 IST" depends-on-methods="invalidLogin.InvalidLoginTest.passwordTextBox" duration-ms="776" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[somerandompassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method is-config="true" signature="closeDataExcel()[pri:0, instance:invalidLogin.InvalidLoginTest@6a78afa0]" started-at="2023-01-21T20:51:07 IST" name="closeDataExcel" finished-at="2023-01-21T20:51:07 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDataExcel -->
+        <test-method is-config="true" signature="differentiatingNewTest()[pri:0, instance:invalidLogin.InvalidLoginTest@6a78afa0]" started-at="2023-01-21T20:51:07 IST" name="differentiatingNewTest" finished-at="2023-01-21T20:51:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- differentiatingNewTest -->
+      </class> <!-- invalidLogin.InvalidLoginTest -->
+      <class name="usedCars.UsedCarsTest">
+        <test-method signature="hoverTest()[pri:0, instance:usedCars.UsedCarsTest@dd05255]" started-at="2023-01-21T20:50:42 IST" name="hoverTest" description="To validate if the dropdown box apperars when the cursor is hovered on &quot;Used Cars&quot;" finished-at="2023-01-21T20:50:44 IST" duration-ms="1747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverTest -->
+        <test-method signature="usedCarsChennaiClick()[pri:0, instance:usedCars.UsedCarsTest@dd05255]" started-at="2023-01-21T20:50:44 IST" name="usedCarsChennaiClick" description="To validate if the page is redirected to required page when clicked on &quot;Chennai&quot; under used cars option" finished-at="2023-01-21T20:50:46 IST" depends-on-methods="usedCars.UsedCarsTest.hoverTest" duration-ms="2069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usedCarsChennaiClick -->
+        <test-method signature="popularCarsDisplayed()[pri:0, instance:usedCars.UsedCarsTest@dd05255]" started-at="2023-01-21T20:50:46 IST" name="popularCarsDisplayed" description="To validate if the list of popular models of the cars are displayed in filters division" finished-at="2023-01-21T20:50:47 IST" depends-on-methods="usedCars.UsedCarsTest.usedCarsChennaiClick" duration-ms="908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popularCarsDisplayed -->
+        <test-method signature="usedCarsToHomepage()[pri:2, instance:usedCars.UsedCarsTest@dd05255]" started-at="2023-01-21T20:50:47 IST" name="usedCarsToHomepage" description="To validate if user is able to navigate back to home page from Used Cars page upon clicking on &quot;ZIGWHEELS.COM&quot; logo" finished-at="2023-01-21T20:50:53 IST" duration-ms="5964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usedCarsToHomepage -->
+        <test-method is-config="true" signature="differentiatingNewTest()[pri:0, instance:usedCars.UsedCarsTest@dd05255]" started-at="2023-01-21T20:50:53 IST" name="differentiatingNewTest" finished-at="2023-01-21T20:50:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- differentiatingNewTest -->
+      </class> <!-- usedCars.UsedCarsTest -->
+      <class name="upcomingBikes.UpcomingBikesTest">
+        <test-method is-config="true" signature="configuration()[pri:0, instance:upcomingBikes.UpcomingBikesTest@4c12331b]" started-at="2023-01-21T20:50:18 IST" name="configuration" finished-at="2023-01-21T20:50:21 IST" duration-ms="3734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configuration -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:upcomingBikes.UpcomingBikesTest@4c12331b]" started-at="2023-01-21T20:50:21 IST" name="openUrl" finished-at="2023-01-21T20:50:25 IST" depends-on-methods="baseClass.BaseClass.configuration" duration-ms="3237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="hoverBoxMenu()[pri:0, instance:upcomingBikes.UpcomingBikesTest@4c12331b]" started-at="2023-01-21T20:50:27 IST" name="hoverBoxMenu" description="To verify if dropdown box appears after hovering the cursor on &quot;New Bikes&quot; menu" finished-at="2023-01-21T20:50:29 IST" duration-ms="1689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverBoxMenu -->
+        <test-method signature="upcomingBikesButton()[pri:0, instance:upcomingBikes.UpcomingBikesTest@4c12331b]" started-at="2023-01-21T20:50:29 IST" name="upcomingBikesButton" description="To verify if hypertext link is functioning by clicking on &quot;Upcoming Bikes&quot;" finished-at="2023-01-21T20:50:31 IST" depends-on-methods="upcomingBikes.UpcomingBikesTest.hoverBoxMenu" duration-ms="1653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- upcomingBikesButton -->
+        <test-method signature="manufacturerDropdown()[pri:0, instance:upcomingBikes.UpcomingBikesTest@4c12331b]" started-at="2023-01-21T20:50:31 IST" name="manufacturerDropdown" description="To verify if dropdown menu appears when user clicks on input field labelled as &quot;Manufacturers&quot;" finished-at="2023-01-21T20:50:32 IST" depends-on-methods="upcomingBikes.UpcomingBikesTest.upcomingBikesButton" duration-ms="549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manufacturerDropdown -->
+        <test-method signature="selectBrand()[pri:0, instance:upcomingBikes.UpcomingBikesTest@4c12331b]" started-at="2023-01-21T20:50:32 IST" name="selectBrand" description="To verify if user is able to click &quot;Honda&quot; from Manufacturers dropdown list" finished-at="2023-01-21T20:50:35 IST" depends-on-methods="upcomingBikes.UpcomingBikesTest.manufacturerDropdown" duration-ms="3244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrand -->
+        <test-method signature="viewMoreButton()[pri:0, instance:upcomingBikes.UpcomingBikesTest@4c12331b]" started-at="2023-01-21T20:50:35 IST" name="viewMoreButton" description="To validate if user is able to click on &quot;View More Bikes&quot; button" finished-at="2023-01-21T20:50:37 IST" depends-on-methods="upcomingBikes.UpcomingBikesTest.selectBrand" duration-ms="1482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewMoreButton -->
+        <test-method signature="displayUpcomingBikes()[pri:0, instance:upcomingBikes.UpcomingBikesTest@4c12331b]" started-at="2023-01-21T20:50:37 IST" name="displayUpcomingBikes" description="To validate whether the more upcoming Honda bikes are displayed, when user clicks on" finished-at="2023-01-21T20:50:38 IST" depends-on-methods="upcomingBikes.UpcomingBikesTest.viewMoreButton" duration-ms="993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayUpcomingBikes -->
+        <test-method signature="upcomingBikesToHomepage()[pri:2, instance:upcomingBikes.UpcomingBikesTest@4c12331b]" started-at="2023-01-21T20:50:38 IST" name="upcomingBikesToHomepage" description="To validate if user is able to navigate back to home page from Upcoming Bikes Page upon clicking on &quot;ZIGWHEELS.COM&quot; logo" finished-at="2023-01-21T20:50:42 IST" duration-ms="3762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- upcomingBikesToHomepage -->
+        <test-method is-config="true" signature="differentiatingNewTest()[pri:0, instance:upcomingBikes.UpcomingBikesTest@4c12331b]" started-at="2023-01-21T20:50:42 IST" name="differentiatingNewTest" finished-at="2023-01-21T20:50:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- differentiatingNewTest -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:upcomingBikes.UpcomingBikesTest@4c12331b]" started-at="2023-01-21T20:51:07 IST" name="closeDriver" finished-at="2023-01-21T20:51:08 IST" duration-ms="777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- upcomingBikes.UpcomingBikesTest -->
+    </test> <!-- Identify New Bikes Test Automation -->
+  </suite> <!-- Suite -->
+</testng-results>

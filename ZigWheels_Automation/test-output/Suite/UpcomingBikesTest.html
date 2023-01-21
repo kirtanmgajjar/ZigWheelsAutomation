@@ -1,0 +1,190 @@
+<html>
+<head>
+<title>TestNG:  UpcomingBikesTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>UpcomingBikesTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>22/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Dec 24 17:07:09 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>27 seconds (27816 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='invalidLogin.InvalidLoginTest.passwordTextBox()'><b>passwordTextBox</b><br>Test class: invalidLogin.InvalidLoginTest<br>Test method: To verify if the Password textbox is present and is able to accept inputs</td>
+<td></td>
+<td>1</td>
+<td>invalidLogin.InvalidLoginTest@40a4337a</td></tr>
+<tr>
+<td title='invalidLogin.InvalidLoginTest.invalidPassword()'><b>invalidPassword</b><br>Test class: invalidLogin.InvalidLoginTest<br>Test method: To validate whether the error message is displayed on entering invalid password<br>Parameters: somerandompassword</td>
+<td></td>
+<td>0</td>
+<td>invalidLogin.InvalidLoginTest@40a4337a</td></tr>
+<tr>
+<td title='upcomingBikes.UpcomingBikesTest.displayUpcomingBikes()'><b>displayUpcomingBikes</b><br>Test class: upcomingBikes.UpcomingBikesTest<br>Test method: To validate whether the more upcoming Honda bikes are displayed, when user clicks on</td>
+<td></td>
+<td>0</td>
+<td>upcomingBikes.UpcomingBikesTest@22555ebf</td></tr>
+<tr>
+<td title='invalidLogin.InvalidLoginTest.continueWithGoogle()'><b>continueWithGoogle</b><br>Test class: invalidLogin.InvalidLoginTest<br>Test method: To validate the functionality of "Continue with Google" button</td>
+<td></td>
+<td>4</td>
+<td>invalidLogin.InvalidLoginTest@40a4337a</td></tr>
+<tr>
+<td title='invalidLogin.InvalidLoginTest.invalidEmailOrPhone()'><b>invalidEmailOrPhone</b><br>Test class: invalidLogin.InvalidLoginTest<br>Test method: To verify functionality of "Next" button when user enters invalid e-mail<br>Parameters: 9876543210123</td>
+<td></td>
+<td>0</td>
+<td>invalidLogin.InvalidLoginTest@40a4337a</td></tr>
+<tr>
+<td title='invalidLogin.InvalidLoginTest.invalidEmailOrPhone()'><b>invalidEmailOrPhone</b><br>Test class: invalidLogin.InvalidLoginTest<br>Test method: To verify functionality of "Next" button when user enters invalid e-mail<br>Parameters: 987654320</td>
+<td></td>
+<td>0</td>
+<td>invalidLogin.InvalidLoginTest@40a4337a</td></tr>
+<tr>
+<td title='upcomingBikes.UpcomingBikesTest.selectBrand()'><b>selectBrand</b><br>Test class: upcomingBikes.UpcomingBikesTest<br>Test method: To verify if user is able to click "Honda" from Manufacturers dropdown list</td>
+<td></td>
+<td>1</td>
+<td>upcomingBikes.UpcomingBikesTest@22555ebf</td></tr>
+<tr>
+<td title='upcomingBikes.UpcomingBikesTest.viewMoreButton()'><b>viewMoreButton</b><br>Test class: upcomingBikes.UpcomingBikesTest<br>Test method: To validate if user is able to click on "View More Bikes" button</td>
+<td></td>
+<td>2</td>
+<td>upcomingBikes.UpcomingBikesTest@22555ebf</td></tr>
+<tr>
+<td title='usedCars.UsedCarsTest.usedCarsChennaiClick()'><b>usedCarsChennaiClick</b><br>Test class: usedCars.UsedCarsTest<br>Test method: To validate if the page is redirected to required page when clicked on "Chennai" under used cars option</td>
+<td></td>
+<td>1</td>
+<td>usedCars.UsedCarsTest@6a6cb05c</td></tr>
+<tr>
+<td title='invalidLogin.InvalidLoginTest.invalidEmailOrPhone()'><b>invalidEmailOrPhone</b><br>Test class: invalidLogin.InvalidLoginTest<br>Test method: To verify functionality of "Next" button when user enters invalid e-mail<br>Parameters: zyxtwsr\@gmail.com</td>
+<td></td>
+<td>0</td>
+<td>invalidLogin.InvalidLoginTest@40a4337a</td></tr>
+<tr>
+<td title='upcomingBikes.UpcomingBikesTest.upcomingBikesToHomepage()'><b>upcomingBikesToHomepage</b><br>Test class: upcomingBikes.UpcomingBikesTest<br>Test method: To validate if user is able to navigate back to home page from Upcoming Bikes Page upon clicking on "ZIGWHEELS.COM" logo</td>
+<td></td>
+<td>1</td>
+<td>upcomingBikes.UpcomingBikesTest@22555ebf</td></tr>
+<tr>
+<td title='invalidLogin.InvalidLoginTest.loginButton()'><b>loginButton</b><br>Test class: invalidLogin.InvalidLoginTest<br>Test method: To validate the functionality of "Login/Signup" button</td>
+<td></td>
+<td>0</td>
+<td>invalidLogin.InvalidLoginTest@40a4337a</td></tr>
+<tr>
+<td title='invalidLogin.InvalidLoginTest.invalidEmailOrPhone()'><b>invalidEmailOrPhone</b><br>Test class: invalidLogin.InvalidLoginTest<br>Test method: To verify functionality of "Next" button when user enters invalid e-mail<br>Parameters: 9876543211</td>
+<td></td>
+<td>0</td>
+<td>invalidLogin.InvalidLoginTest@40a4337a</td></tr>
+<tr>
+<td title='usedCars.UsedCarsTest.usedCarsToHomepage()'><b>usedCarsToHomepage</b><br>Test class: usedCars.UsedCarsTest<br>Test method: To validate if user is able to navigate back to home page from Used Cars page upon clicking on "ZIGWHEELS.COM" logo</td>
+<td></td>
+<td>1</td>
+<td>usedCars.UsedCarsTest@6a6cb05c</td></tr>
+<tr>
+<td title='usedCars.UsedCarsTest.hoverTest()'><b>hoverTest</b><br>Test class: usedCars.UsedCarsTest<br>Test method: To validate if the dropdown box apperars when the cursor is hovered on "Used Cars"</td>
+<td></td>
+<td>0</td>
+<td>usedCars.UsedCarsTest@6a6cb05c</td></tr>
+<tr>
+<td title='usedCars.UsedCarsTest.popularCarsDisplayed()'><b>popularCarsDisplayed</b><br>Test class: usedCars.UsedCarsTest<br>Test method: To validate if the list of popular models of the cars are displayed in filters division</td>
+<td></td>
+<td>1</td>
+<td>usedCars.UsedCarsTest@6a6cb05c</td></tr>
+<tr>
+<td title='upcomingBikes.UpcomingBikesTest.upcomingBikesButton()'><b>upcomingBikesButton</b><br>Test class: upcomingBikes.UpcomingBikesTest<br>Test method: To verify if hypertext link is functioning by clicking on "Upcoming Bikes"</td>
+<td></td>
+<td>2</td>
+<td>upcomingBikes.UpcomingBikesTest@22555ebf</td></tr>
+<tr>
+<td title='upcomingBikes.UpcomingBikesTest.manufacturerDropdown()'><b>manufacturerDropdown</b><br>Test class: upcomingBikes.UpcomingBikesTest<br>Test method: To verify if dropdown menu appears when user clicks on input field labelled as "Manufacturers"</td>
+<td></td>
+<td>0</td>
+<td>upcomingBikes.UpcomingBikesTest@22555ebf</td></tr>
+<tr>
+<td title='upcomingBikes.UpcomingBikesTest.hoverBoxMenu()'><b>hoverBoxMenu</b><br>Test class: upcomingBikes.UpcomingBikesTest<br>Test method: To verify if dropdown box appears after hovering the cursor on "New Bikes" menu</td>
+<td></td>
+<td>0</td>
+<td>upcomingBikes.UpcomingBikesTest@22555ebf</td></tr>
+<tr>
+<td title='invalidLogin.InvalidLoginTest.invalidEmailOrPhone()'><b>invalidEmailOrPhone</b><br>Test class: invalidLogin.InvalidLoginTest<br>Test method: To verify functionality of "Next" button when user enters invalid e-mail<br>Parameters: zyxwtewrerewrs@gmail.com</td>
+<td></td>
+<td>0</td>
+<td>invalidLogin.InvalidLoginTest@40a4337a</td></tr>
+<tr>
+<td title='invalidLogin.InvalidLoginTest.emailTextBox()'><b>emailTextBox</b><br>Test class: invalidLogin.InvalidLoginTest<br>Test method: To verify if email text field is present in the window user is redirected into</td>
+<td></td>
+<td>0</td>
+<td>invalidLogin.InvalidLoginTest@40a4337a</td></tr>
+<tr>
+<td title='invalidLogin.InvalidLoginTest.validEmail()'><b>validEmail</b><br>Test class: invalidLogin.InvalidLoginTest<br>Test method: To verify functionality of "Next" button when user enters a valid e-mail<br>Parameters: trialsubtrial@gmail.com</td>
+<td></td>
+<td>0</td>
+<td>invalidLogin.InvalidLoginTest@40a4337a</td></tr>
+</table><p>
+</body>
+</html>

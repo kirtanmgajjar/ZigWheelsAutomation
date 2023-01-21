@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Identify New Bikes Test Automation">
+    <classes>
+      <class name="upcomingBikes.UpcomingBikesTest"/>
+      <class name="usedCars.UsedCarsTest"/>
+      <class name="invalidLogin.InvalidLoginTest"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->
