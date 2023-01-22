@@ -33,7 +33,7 @@ Reports folder has the Report.html file which is the report generated after runn
 
 Screenshot folder will contain the screenshots for the failed tests. 
 
-Test.xlsx file is the test summary report.
+Test.xlsx file is the test summary report in which the Test Case sheet is updated based on the the project run.
  
 pom.xml contains the dependencies required by the project.
  
